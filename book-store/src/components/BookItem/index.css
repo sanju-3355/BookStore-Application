@@ -1,0 +1,114 @@
+
+.link-item {
+    text-decoration: none;
+    color: black;
+  }
+.book-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-style: none;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-color: transparent;
+  }
+  @media screen and (min-width: 787px) {
+    .book-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .book-img {
+      height: 32vh;
+      width: 13vw;
+      margin: 0px;
+      padding: 0px;
+      border-radius: 10px;
+      background-color: transparent;
+      border: none;
+      margin-bottom: -10px;
+    }
+  }
+  @media screen and (max-width: 786px) {
+    .book-img {
+      height: 25vh;
+      width: 40vw;
+      margin: 0px;
+      padding: 0px;
+      border-radius: 10px;
+      background-color: transparent;
+      border: none;
+    }
+  }
+
+  @media screen and (min-width: 787px) {
+    .book-item-details-card-container {
+      width: 15vw;
+      margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 5px;
+    }
+  
+    .book-item-title {
+      margin-left: -0px;
+      font-size: 16px;
+      color: black;
+    }
+    .book-item-subtitle {
+      font-size: 14px;
+      margin-top: -5px;
+      margin-bottom: 10px;
+    }
+    .book-item-price {
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 0px;
+      color: red;
+    }
+    .book-item-btn {
+      border: none;
+      background-color: transparent;
+      border-style: none;
+      border-radius: 20px;
+    }
+  }
+  @media screen and (max-width: 786px) {
+    .book-item-details-card-container {
+      width: 30vw;
+      margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+    }
+   
+    .book-item-title {
+      margin-left: -10px;
+      font-size: 18px;
+      color: rgb(7, 7, 7);
+      align-self: flex-start;
+    }
+    .book-item-subtitle {
+      font-size: 12px;
+      margin-top: 0px;
+      margin-left: -10px;
+      color: rgb(90, 85, 85);
+      font-family: roboto;
+    }
+
+    .book-item-price {
+      font-size: 12px;
+      margin-top: 0px;
+      color: rgb(250, 5, 5);
+      margin-left: -10px;
+    }
+  
+    .book-item-btn {
+      border-style: none;
+      border-radius: 10px;
+      background-color: transparent;
+    }
+  }

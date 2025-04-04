@@ -1,0 +1,78 @@
+.link-item{
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book-detail-container {
+    max-width: 750px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .book-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: -18px;
+    border-radius: 6px;
+  }
+  .book-description {
+    font-size: 17px;
+    text-align: justify;
+    padding: 5px;
+  }
+  
+  .book-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+  }
+  .btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-to-cart,
+  .back-button {
+    padding: 12px;
+    margin: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .add-to-cart {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .back-button {
+    background-color: #0f7bd9;
+    color: white;
+  }
+
+@media screen and (max-width: 767px) {
+  .book-description{
+    font-size: 14px;
+  }
+  .add-to-cart, .back-button{
+    font-size: 15px;
+    padding: 8px;
+    margin: 8px;
+  }
+  h4{
+    font-size: 14px;
+  }
+  h2{
+    font-size: 22px;
+  }
+}
